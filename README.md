@@ -1,13 +1,14 @@
 # PATH XSS Scanner
 
-PATH XSS Scanner is a Python tool for scanning URLs for potential XSS vulnerabilities. It allows you to test multiple URLs against a list of payloads and identifies those that are vulnerable.
+## Overview  
+**PATH XSS Scanner** is an advanced tool for detecting Cross-Site Scripting (XSS) vulnerabilities in the URL path of web applications. It automates scanning using **Selenium** and **Chrome WebDriver**, ensuring high accuracy in detecting vulnerabilities.
 
-## Features
-
-- Scans multiple URLs for XSS vulnerabilities
-- Supports custom payload files
-- Generates a report of vulnerable URLs
-- Uses headless Chrome for scanning
+## Features  
+- **Automated XSS Detection**: Scans URLs by injecting payloads in the path segment.  
+- **Headless Browser Testing**: Uses **Selenium** and **Chrome** to detect XSS alerts.  
+- **Multi-threaded Scanning**: Enhances speed using concurrent scanning.  
+- **Detailed Scan Summary**: Displays the total number of scanned and vulnerable URLs.  
+- **Saves Vulnerabilities**: Logs detected vulnerable URLs into a file for later analysis.  
 
 ## Prerequisites
 
